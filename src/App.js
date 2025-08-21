@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Home from "./Home";
+import Services from "./Services";
 export default function App() {
   return(
     <Router>
@@ -18,12 +19,15 @@ export default function App() {
   <nav>
     <ul>
     <li><Link to="/">Home</Link></li>
+    <li><Link to ="/services">Services</Link></li>
+
     </ul>
     </nav>
 </div>
 <div className="content">
   <Routes>
   <Route path="/"  element={<Home />} />
+  <Route path="/services" element={<Services />} />
   </Routes>
 </div>
 </div>
