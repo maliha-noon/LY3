@@ -65,6 +65,18 @@
   background: white;
 
 }
+.content h2{
+  margin-bottom: 15px;
+  color:black;
+}
+.content ul{
+  list-style: none;
+  padding: 0;
+}
+.content li{
+  padding : 8px 0;
+  border-bottom: 1px solid #ddd;
+}
 
 body,html{
   height:100%;
